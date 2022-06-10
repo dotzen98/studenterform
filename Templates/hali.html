@@ -1,0 +1,41 @@
+<!DOCTYPE html>  
+ <html>  
+ <head>  
+  <title>Form in HTML</title>  
+</head>  
+ <body>  
+     <h2>Studenter Hotline</h2>  
+    <form action="" method="post">  
+     <fieldset>  
+        <legend>Information</legend>  
+        <label>Overskrift*</label><br>  
+        <input type="text" name="name" required><br>  
+         <label>E-mail*</label><br>  
+         <input type="email" name="email" required><br>  
+         <label>Kunde</label><br>  
+         <input type="text" name="customer"><br>  
+         <label>IT-værktøj</label><br>  
+         <input type="text" name="tool"><br>
+         <label>Formodede antal timer*</label><br>  
+         <input type="number" name="time" required><br>
+      	<label>Prioritet</label>
+         <select name="priority">
+      	<option value="6253cb060788da5b2c47206c">Lav</option>
+         <option value="6253cb060788da5b2c472072">Medium</option>
+        	<option value="6253cb060788da5b2c47207b">Høj</option>
+      	</select>
+         <label>Tidsfrist:</label>
+         <input type="date" name="dueDate">    
+         <label>Type*</label>
+         <select name="place" required>
+         <option value="6253cb060788da5b2c472040">Intern Opgave</option>
+         <option value="6253cb060788da5b2c47203e">Ekstern Opgave</option>
+         <option value="6253cde344897c4665cd9ad2">Haste Opgave</option>
+         </select>     
+          <br>Beskrivelse*:<br>  
+         <textarea name="comment" rows="8" cols="40"></textarea><br>  
+         <input type="submit" name="submit" value="Submit" required/>  
+     </fieldset>  
+  </form>  
+ </body>  
+</html>  
